@@ -12,6 +12,10 @@
 
 ---
 
+<p align="center">
+  <img src="assets/app-screenshot.png" alt="BetterDeck on macOS, showing the 15-key grid and key editor" width="1200" />
+</p>
+
 ## At a glance
 
 | | |
