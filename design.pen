@@ -1,0 +1,2574 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Y1CVG5",
+      "x": -400,
+      "y": -180,
+      "name": "BetterDeck / redesigned shortcut studio",
+      "clip": true,
+      "width": 1600,
+      "height": 960,
+      "fill": "#10151B",
+      "cornerRadius": 22,
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "b33Bg",
+          "name": "Application toolbar",
+          "width": "fill_container",
+          "height": 70,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "xqD6i",
+              "name": "BetterDeck brand",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zfIvQ",
+                  "name": "Deck icon tile",
+                  "width": 42,
+                  "height": 42,
+                  "fill": "#A9D8E9",
+                  "cornerRadius": 12,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "yrccC",
+                      "name": "Deck grid icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "layout-grid",
+                      "library": "lucide",
+                      "fill": "#12232B"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZycJJ",
+                  "name": "Brand typography",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t7xcIA",
+                      "name": "App name",
+                      "fill": "#F1F6F7",
+                      "content": "BetterDeck",
+                      "fontFamily": "Inter",
+                      "fontSize": 23,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gTfYI",
+                      "name": "App descriptor",
+                      "fill": "#89A1AE",
+                      "content": "CONTROLE DE ATALHOS  /  D6",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.3
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ulGK1",
+              "name": "Toolbar status and help",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CNXoH",
+                  "name": "Connected device badge",
+                  "fill": "#1B292D",
+                  "cornerRadius": 20,
+                  "gap": 9,
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "wTvtI",
+                      "name": "Connection indicator",
+                      "fill": "#7DD8A4",
+                      "width": 7,
+                      "height": 7
+                    },
+                    {
+                      "type": "text",
+                      "id": "sOyN7",
+                      "name": "Device connected",
+                      "fill": "#BCE7D0",
+                      "content": "D6 conectado",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EeLXt",
+                  "name": "Help shortcut",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "#202932",
+                  "cornerRadius": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "W6o5u",
+                      "name": "Help symbol",
+                      "fill": "#B6C6CE",
+                      "content": "?",
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "I6eoTq",
+          "name": "Configuration workspace",
+          "width": "fill_container",
+          "height": "fill_container",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "E7LKDu",
+              "name": "Profiles and device sidebar",
+              "width": 260,
+              "height": "fill_container",
+              "fill": "#1A2128",
+              "cornerRadius": 18,
+              "layout": "vertical",
+              "gap": 22,
+              "padding": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ofiWf",
+                  "name": "Device details",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 7,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AK3p8",
+                      "name": "Device eyebrow",
+                      "fill": "#91A6B3",
+                      "content": "DISPOSITIVO",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "imhpq",
+                      "name": "Device name",
+                      "fill": "#EFF4F6",
+                      "content": "Stream Deck D6",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "650"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K5iuUR",
+                      "name": "Device identifier",
+                      "fill": "#7E929E",
+                      "content": "USB · 3142:0060",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rDDTY",
+                  "name": "OBS WebSocket settings",
+                  "width": "fill_container",
+                  "fill": "#222D35",
+                  "cornerRadius": 9,
+                  "padding": [
+                    9,
+                    11
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Q4giCb",
+                      "name": "OBS connection label",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "IZ0W9",
+                          "name": "OBS connection icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "radio",
+                          "library": "lucide",
+                          "fill": "#91A7B3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PTy89",
+                          "name": "OBS label",
+                          "fill": "#C0CED5",
+                          "content": "OBS WebSocket",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon",
+                      "id": "Dzk3t",
+                      "name": "OBS disclosure",
+                      "width": 14,
+                      "height": 14,
+                      "icon": "chevron-right",
+                      "library": "lucide",
+                      "fill": "#879CA7"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "TvCi2",
+                  "name": "Section divider",
+                  "fill": "#303A43",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "vI69l",
+                  "name": "Profiles section",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HBGaA",
+                      "name": "Profiles heading",
+                      "fill": "#91A6B3",
+                      "content": "PERFIS",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NFvX0",
+                      "name": "Principal active profile",
+                      "width": "fill_container",
+                      "fill": "#283A43",
+                      "cornerRadius": 10,
+                      "gap": 9,
+                      "padding": [
+                        11,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "o6JE9z",
+                          "name": "Profile icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "layers-2",
+                          "library": "lucide",
+                          "fill": "#A9D8E9"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Zkrgw",
+                          "name": "Active profile name",
+                          "fill": "#ECF6F8",
+                          "content": "Principal",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kZ8CP",
+                      "name": "Add profile action",
+                      "gap": 8,
+                      "padding": [
+                        4,
+                        2
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "U2l1sU",
+                          "name": "Add profile icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "#91A6B3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XQM3z",
+                          "name": "Add profile label",
+                          "fill": "#A5B4BE",
+                          "content": "Novo perfil",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "MC4ro",
+                  "name": "Section divider",
+                  "fill": "#303A43",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "fO7CO",
+                  "name": "Pages section",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Qf5iE",
+                      "name": "Pages heading",
+                      "fill": "#91A6B3",
+                      "content": "PÁGINAS",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CVetK",
+                      "name": "Current page",
+                      "width": "fill_container",
+                      "fill": "#263139",
+                      "cornerRadius": 10,
+                      "gap": 9,
+                      "padding": [
+                        11,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "cZfcS",
+                          "name": "Page icon",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "grid-2x2",
+                          "library": "lucide",
+                          "fill": "#A9D8E9"
+                        },
+                        {
+                          "type": "text",
+                          "id": "x1wS36",
+                          "name": "Current page name",
+                          "fill": "#ECF6F8",
+                          "content": "Página 1",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j1pRG",
+                      "name": "Add page action",
+                      "gap": 8,
+                      "padding": [
+                        4,
+                        2
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "W7y9KK",
+                          "name": "Add page icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "plus",
+                          "library": "lucide",
+                          "fill": "#91A6B3"
+                        },
+                        {
+                          "type": "text",
+                          "id": "D6aLO",
+                          "name": "Add page label",
+                          "fill": "#A5B4BE",
+                          "content": "Nova página",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "oLS1K",
+                  "name": "Section divider",
+                  "fill": "#303A43",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "wZ55U",
+                  "name": "Display brightness",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BskPC",
+                      "name": "Brightness heading",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mGx9I",
+                          "name": "Brightness label",
+                          "fill": "#B9C6CF",
+                          "content": "Brilho da tela",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cqqUr",
+                          "name": "Brightness value",
+                          "fill": "#E4EFF2",
+                          "content": "80%",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iC0J1",
+                      "name": "Brightness track",
+                      "width": "fill_container",
+                      "height": 14,
+                      "fill": "#3C4A54",
+                      "cornerRadius": 3,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 3,
+                          "id": "BEted",
+                          "x": 0,
+                          "y": 4,
+                          "name": "Brightness rail",
+                          "fill": "#3C4A54",
+                          "width": 216,
+                          "height": 6
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 3,
+                          "id": "HAC3J",
+                          "x": 0,
+                          "y": 4,
+                          "name": "Brightness level",
+                          "fill": "#A9D8E9",
+                          "width": 173,
+                          "height": 6
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "MAwAU",
+                          "x": 167,
+                          "y": 0,
+                          "name": "Brightness handle",
+                          "fill": "#E8F5F8",
+                          "width": 14,
+                          "height": 14
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lQuSA",
+                  "name": "Power action",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Q7VtJ",
+                      "name": "Power icon",
+                      "width": 15,
+                      "height": 15,
+                      "icon": "power",
+                      "library": "lucide",
+                      "fill": "#95A7B2"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xoJnW",
+                      "name": "Power label",
+                      "fill": "#9BAEB9",
+                      "content": "Apagar D6",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YAxIX",
+                  "name": "Sidebar flexible space",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical"
+                },
+                {
+                  "type": "frame",
+                  "id": "y8qt7s",
+                  "name": "Configuration tip",
+                  "width": "fill_container",
+                  "fill": "#22343E",
+                  "cornerRadius": 11,
+                  "layout": "vertical",
+                  "gap": 7,
+                  "padding": 13,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "U4oTES",
+                      "name": "Tip eyebrow",
+                      "fill": "#A6DAE8",
+                      "content": "DICA RÁPIDA",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "tj2ZV",
+                      "name": "Tip text",
+                      "fill": "#B3C9D3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Selecione uma tecla para definir a ação e personalizar a aparência.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "s8vaJT",
+              "name": "D6 key workspace",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#181F26",
+              "cornerRadius": 18,
+              "layout": "vertical",
+              "gap": 22,
+              "padding": [
+                25,
+                28
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wBVTR",
+                  "name": "Key workspace heading",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "olhOc",
+                      "name": "Workspace title block",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lfssY",
+                          "name": "Workspace eyebrow",
+                          "fill": "#90A7B4",
+                          "content": "CONFIGURAÇÃO DE TECLAS",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "type": "text",
+                          "id": "P5MxZ",
+                          "name": "Workspace heading",
+                          "fill": "#F1F6F8",
+                          "content": "Teclas do D6",
+                          "fontFamily": "Inter",
+                          "fontSize": 25,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fR7Zb",
+                      "name": "Grid summary",
+                      "fill": "#26343B",
+                      "cornerRadius": 9,
+                      "gap": 8,
+                      "padding": [
+                        8,
+                        11
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "PTXgk",
+                          "name": "Key summary icon",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "grid-3x3",
+                          "library": "lucide",
+                          "fill": "#A9D8E9"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tYkd1",
+                          "name": "Grid count",
+                          "fill": "#C5D7DE",
+                          "content": "15 teclas · 5 × 3",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fwQWc",
+                  "name": "Centered deck stage",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 17,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "N4bHHw",
+                      "name": "Page navigation",
+                      "width": 786,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "iTOeF",
+                          "name": "Page breadcrumb",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "y8qsE",
+                              "name": "Profile breadcrumb",
+                              "fill": "#8DA2AE",
+                              "content": "Principal",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "knOfK",
+                              "name": "Breadcrumb chevron",
+                              "width": 13,
+                              "height": 13,
+                              "icon": "chevron-right",
+                              "library": "lucide",
+                              "fill": "#627682"
+                            },
+                            {
+                              "type": "text",
+                              "id": "b8dznj",
+                              "name": "Page breadcrumb",
+                              "fill": "#E3EDF0",
+                              "content": "Página 1",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "s5V9J",
+                          "name": "Page arrows",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "GJ8nL",
+                              "name": "Previous page",
+                              "width": 26,
+                              "height": 26,
+                              "fill": "#29343C",
+                              "cornerRadius": 7,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Rola1",
+                                  "name": "Previous page icon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "chevron-left",
+                                  "library": "lucide",
+                                  "fill": "#A7BAC4"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "AMR2t",
+                              "name": "Next page",
+                              "width": 26,
+                              "height": 26,
+                              "fill": "#29343C",
+                              "cornerRadius": 7,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "YUUL8",
+                                  "name": "Next page icon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "chevron-right",
+                                  "library": "lucide",
+                                  "fill": "#A7BAC4"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MULOw",
+                      "name": "D6 physical key grid",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sVI1K",
+                          "name": "Key row 1",
+                          "gap": 14,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "NCsaM",
+                              "name": "Key 01 · selected",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#233A45",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 2,
+                              "effect": {
+                                "type": "shadow",
+                                "shadowType": "outer",
+                                "color": "#71CFE533",
+                                "offset": {
+                                  "x": 0,
+                                  "y": 5
+                                },
+                                "blur": 18
+                              },
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "lniy8",
+                                  "name": "Key 1 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "bqz0y",
+                                      "name": "Key 1 index",
+                                      "fill": "#BDE5EF",
+                                      "content": "01",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    },
+                                    {
+                                      "type": "ellipse",
+                                      "id": "oJpYK",
+                                      "name": "Selected key indicator",
+                                      "fill": "#A9D8E9",
+                                      "width": 6,
+                                      "height": 6
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "e2fQe3",
+                                  "name": "Key 1 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#365968",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "iS5Ko",
+                                      "name": "Key 1 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#C3ECF4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "FIqdn",
+                                  "name": "Key 1 state",
+                                  "fill": "#D9EDF2",
+                                  "content": "Selecionada",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "MgqvI",
+                              "name": "Key 02",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "MsibN",
+                                  "name": "Key 2 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "kbhJo",
+                                      "name": "Key 2 index",
+                                      "fill": "#899AA4",
+                                      "content": "02",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "FdV6Q",
+                                  "name": "Key 2 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "AgmSc",
+                                      "name": "Key 2 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "R3iwL",
+                                  "name": "Key 2 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "SCuyc",
+                              "name": "Key 03",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "IJGYX",
+                                  "name": "Key 3 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "I34pnX",
+                                      "name": "Key 3 index",
+                                      "fill": "#899AA4",
+                                      "content": "03",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "xGPXM",
+                                  "name": "Key 3 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "IlNrp",
+                                      "name": "Key 3 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "T6lWC9",
+                                  "name": "Key 3 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rY0so",
+                              "name": "Key 04",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "gecrU",
+                                  "name": "Key 4 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "z2ErN",
+                                      "name": "Key 4 index",
+                                      "fill": "#899AA4",
+                                      "content": "04",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "KmsXW",
+                                  "name": "Key 4 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "uLOQf",
+                                      "name": "Key 4 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "g2dlTn",
+                                  "name": "Key 4 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JuLjk",
+                              "name": "Key 05",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "sPSsm",
+                                  "name": "Key 5 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Kzclg",
+                                      "name": "Key 5 index",
+                                      "fill": "#899AA4",
+                                      "content": "05",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "nlm1m",
+                                  "name": "Key 5 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "MN7wi",
+                                      "name": "Key 5 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "R7aRLW",
+                                  "name": "Key 5 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MeMtD",
+                          "name": "Key row 2",
+                          "gap": 14,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "P9tT60",
+                              "name": "Key 06",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "lNOMW",
+                                  "name": "Key 6 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "sgwCz",
+                                      "name": "Key 6 index",
+                                      "fill": "#899AA4",
+                                      "content": "06",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "MF6Gw",
+                                  "name": "Key 6 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "lDyKw",
+                                      "name": "Key 6 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "z5Kgnf",
+                                  "name": "Key 6 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "slP5E",
+                              "name": "Key 07",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "gewu9",
+                                  "name": "Key 7 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "WoNzc",
+                                      "name": "Key 7 index",
+                                      "fill": "#899AA4",
+                                      "content": "07",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "TkxLy",
+                                  "name": "Key 7 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "T062MS",
+                                      "name": "Key 7 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "IJLOB",
+                                  "name": "Key 7 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "igTH5",
+                              "name": "Key 08",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "IHXIQ",
+                                  "name": "Key 8 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "khCWM",
+                                      "name": "Key 8 index",
+                                      "fill": "#899AA4",
+                                      "content": "08",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "AuuDN",
+                                  "name": "Key 8 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "UoKzW",
+                                      "name": "Key 8 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "CBtOC",
+                                  "name": "Key 8 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "J9tz9I",
+                              "name": "Key 09",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "CbQKk",
+                                  "name": "Key 9 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "b7w9q",
+                                      "name": "Key 9 index",
+                                      "fill": "#899AA4",
+                                      "content": "09",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "f2Ymxh",
+                                  "name": "Key 9 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "oc0Zt",
+                                      "name": "Key 9 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Jjba7",
+                                  "name": "Key 9 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "J6zXq",
+                              "name": "Key 10",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "r6NOS",
+                                  "name": "Key 10 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Uf8Ox",
+                                      "name": "Key 10 index",
+                                      "fill": "#899AA4",
+                                      "content": "10",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "A6Mvz",
+                                  "name": "Key 10 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "Pj1Ua",
+                                      "name": "Key 10 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "QqXVi",
+                                  "name": "Key 10 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GArVD",
+                          "name": "Key row 3",
+                          "gap": 14,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "HWOTz",
+                              "name": "Key 11",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "N92Wu",
+                                  "name": "Key 11 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "FQZDY",
+                                      "name": "Key 11 index",
+                                      "fill": "#899AA4",
+                                      "content": "11",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "v5lVem",
+                                  "name": "Key 11 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "H5j8rr",
+                                      "name": "Key 11 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "GwyMy",
+                                  "name": "Key 11 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "X5tTgC",
+                              "name": "Key 12",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "S3Zay",
+                                  "name": "Key 12 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "bjN4q",
+                                      "name": "Key 12 index",
+                                      "fill": "#899AA4",
+                                      "content": "12",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "TGaYQ",
+                                  "name": "Key 12 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "G96Fcu",
+                                      "name": "Key 12 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ZYtjD",
+                                  "name": "Key 12 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "mVNR5",
+                              "name": "Key 13",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "MSaed",
+                                  "name": "Key 13 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "rxWS8",
+                                      "name": "Key 13 index",
+                                      "fill": "#899AA4",
+                                      "content": "13",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "PjtQu",
+                                  "name": "Key 13 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "HU7DT",
+                                      "name": "Key 13 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Lb8vB",
+                                  "name": "Key 13 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XUcgP",
+                              "name": "Key 14",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "TgLkE",
+                                  "name": "Key 14 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "R4m8S",
+                                      "name": "Key 14 index",
+                                      "fill": "#899AA4",
+                                      "content": "14",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iikJO",
+                                  "name": "Key 14 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "XoxUF",
+                                      "name": "Key 14 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "J48u0d",
+                                  "name": "Key 14 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GCiQI",
+                              "name": "Key 15",
+                              "width": 146,
+                              "height": 156,
+                              "fill": "#202A32",
+                              "cornerRadius": 13,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "padding": 14,
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "E2aJOy",
+                                  "name": "Key 15 heading",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "L5jD7",
+                                      "name": "Key 15 index",
+                                      "fill": "#899AA4",
+                                      "content": "15",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 11,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.5
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ZL0HW",
+                                  "name": "Key 15 add affordance",
+                                  "width": 40,
+                                  "height": 40,
+                                  "fill": "#2B3842",
+                                  "cornerRadius": 12,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "wSG2a",
+                                      "name": "Key 15 plus",
+                                      "width": 19,
+                                      "height": 19,
+                                      "icon": "plus",
+                                      "library": "lucide",
+                                      "fill": "#8298A4"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LkJo7",
+                                  "name": "Key 15 state",
+                                  "fill": "#8FA0AA",
+                                  "content": "Sem ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kHU4g",
+                  "name": "Key testing guidance",
+                  "width": "fill_container",
+                  "fill": "#202B33",
+                  "cornerRadius": 12,
+                  "padding": [
+                    13,
+                    15
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eU7br",
+                      "name": "Testing description",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "w9BTV",
+                          "name": "Testing heading",
+                          "fill": "#E2EDF0",
+                          "content": "Teste a tecla selecionada",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZyI0S",
+                          "name": "Testing instructions",
+                          "fill": "#93A7B3",
+                          "content": "Pressione a tecla física no D6 ou use o teste abaixo.",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "h200M0",
+                      "name": "Test selected key button",
+                      "fill": "#315261",
+                      "cornerRadius": 9,
+                      "gap": 8,
+                      "padding": [
+                        10,
+                        13
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "CEwYN",
+                          "name": "Test icon",
+                          "width": 13,
+                          "height": 13,
+                          "icon": "play",
+                          "library": "lucide",
+                          "fill": "#D3F1F5"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pi6Cj",
+                          "name": "Test button label",
+                          "fill": "#E7F6F8",
+                          "content": "Testar tecla",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uLzZx",
+              "name": "Selected key inspector",
+              "width": 320,
+              "height": "fill_container",
+              "fill": "#1A2128",
+              "cornerRadius": 18,
+              "layout": "vertical",
+              "gap": 18,
+              "padding": 22,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "L4LoB",
+                  "name": "Key configuration form",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 19,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WJHmM",
+                      "name": "Inspector heading",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Jye1H",
+                          "name": "Inspector eyebrow",
+                          "fill": "#91A6B3",
+                          "content": "EDITOR DE TECLA",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.1
+                        },
+                        {
+                          "type": "text",
+                          "id": "UuyvR",
+                          "name": "Inspector key heading",
+                          "fill": "#F1F6F8",
+                          "content": "Tecla 01",
+                          "fontFamily": "Inter",
+                          "fontSize": 23,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l0XLl",
+                      "name": "Selected key preview",
+                      "width": "fill_container",
+                      "fill": "#253842",
+                      "cornerRadius": 12,
+                      "gap": 12,
+                      "padding": 11,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xeGVE",
+                          "name": "Mini key preview",
+                          "width": 50,
+                          "height": 50,
+                          "fill": "#31505D",
+                          "cornerRadius": 9,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "klMM5",
+                              "name": "Mini preview icon",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "plus",
+                              "library": "lucide",
+                              "fill": "#C2E8F1"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rEKNA",
+                          "name": "Preview description",
+                          "layout": "vertical",
+                          "gap": 5,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Ps1VI",
+                              "name": "Preview state",
+                              "fill": "#E5F1F4",
+                              "content": "Pronta para configurar",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Fvj3A",
+                              "name": "Preview hint",
+                              "fill": "#A4BBC6",
+                              "content": "Adicione uma ação abaixo",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fSn3V",
+                      "name": "Key properties",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bBZSQ",
+                          "name": "Key title field",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZCA8O",
+                              "name": "Key title label",
+                              "fill": "#C8D4DA",
+                              "content": "Título",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Zs35Y",
+                              "name": "Key title input",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#11181E",
+                              "cornerRadius": 8,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "il2k8",
+                                  "name": "Key title placeholder",
+                                  "fill": "#788B97",
+                                  "content": "Nome da tecla",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "e4IHzL",
+                          "name": "Key color field",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "k6PmE3",
+                              "name": "Key color label",
+                              "fill": "#C8D4DA",
+                              "content": "Cor da tecla",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "dj3J4",
+                              "name": "Color picker input",
+                              "width": "fill_container",
+                              "height": 38,
+                              "fill": "#11181E",
+                              "cornerRadius": 8,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "gap": 10,
+                              "padding": [
+                                0,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": 5,
+                                  "id": "E7ZDBo",
+                                  "name": "Key color swatch",
+                                  "fill": "#10151B",
+                                  "width": 20,
+                                  "height": 20,
+                                  "stroke": {
+                                    "type": "color",
+                                    "color": "#000000",
+                                    "enabled": false
+                                  },
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ATyhS",
+                                  "name": "Key color hex",
+                                  "fill": "#B9C8D0",
+                                  "content": "#10151B",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OjgSM",
+                          "name": "Key image field",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wBQzh",
+                              "name": "Key image label",
+                              "fill": "#C8D4DA",
+                              "content": "Imagem da tecla",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "axdJy",
+                              "name": "Image upload target",
+                              "width": "fill_container",
+                              "height": 79,
+                              "fill": "#202B33",
+                              "cornerRadius": 9,
+                              "stroke": {
+                                "type": "color",
+                                "color": "#000000",
+                                "enabled": false
+                              },
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "gap": 5,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "U1t8Z1",
+                                  "name": "Upload image icon",
+                                  "width": 19,
+                                  "height": 19,
+                                  "icon": "image-plus",
+                                  "library": "lucide",
+                                  "fill": "#9CCDDC"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "E20yM",
+                                  "name": "Upload primary",
+                                  "fill": "#D6EAF0",
+                                  "content": "Escolher imagem",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "iwhGn",
+                                  "name": "Upload formats",
+                                  "fill": "#8DA4B0",
+                                  "content": "PNG · JPEG · WebP",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "g77cw",
+                          "name": "Key action field",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CeXxc",
+                              "name": "Action label",
+                              "fill": "#C8D4DA",
+                              "content": "Ação ao pressionar",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "cAhDB",
+                              "name": "Action selector",
+                              "width": "fill_container",
+                              "height": 40,
+                              "fill": "#293943",
+                              "cornerRadius": 8,
+                              "padding": [
+                                0,
+                                12
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ytx74",
+                                  "name": "Action value",
+                                  "fill": "#D7E4E9",
+                                  "content": "Nenhuma ação",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "icon",
+                                  "id": "ie6a6",
+                                  "name": "Action chevron",
+                                  "width": 15,
+                                  "height": 15,
+                                  "icon": "chevron-down",
+                                  "library": "lucide",
+                                  "fill": "#B7CBD3"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HGI8u",
+                      "name": "Clear key button",
+                      "gap": 8,
+                      "padding": [
+                        8,
+                        1
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "qPW1V",
+                          "name": "Clear key icon",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "trash-2",
+                          "library": "lucide",
+                          "fill": "#A5B6BF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "n19efO",
+                          "name": "Clear key label",
+                          "fill": "#A5B6BF",
+                          "content": "Limpar tecla",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "B45Do",
+                  "name": "macOS permission note",
+                  "width": "fill_container",
+                  "fill": "#222D34",
+                  "cornerRadius": 10,
+                  "layout": "vertical",
+                  "gap": 7,
+                  "padding": 13,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OdxyH",
+                      "name": "Permission note heading",
+                      "gap": 7,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "j9tLW",
+                          "name": "Permission info icon",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "info",
+                          "library": "lucide",
+                          "fill": "#A5D6E4"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fJQIE",
+                          "name": "Permission heading",
+                          "fill": "#D9EAF0",
+                          "content": "Permissão do macOS",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "S7s1G2",
+                      "name": "Permission description",
+                      "fill": "#A0B2BD",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Atalhos e texto exigem Acessibilidade. Comandos e URLs só são executados ao pressionar uma tecla configurada.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "8e46386f-cacb-454b-bc49-4cd66a58c063"
+}
