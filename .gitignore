@@ -1,0 +1,7 @@
+/target/
+/dist/
+/research/DeckBridge/
+/research/*.dylib
+.DS_Store
+/.mcp.json
+/.codex/config.toml
