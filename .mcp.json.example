@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "betterdeck": {
+      "command": "/absolute/path/to/betterdeck/dist/BetterDeck.app/Contents/MacOS/BetterDeck",
+      "args": ["--mcp"]
+    }
+  }
+}
